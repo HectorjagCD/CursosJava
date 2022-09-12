@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author AdminXtorm
+ *
+ */
+module javaFreeCodeCamp {
+}
