@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class ScannerEx {
 
-	//init
+	//Tracking changes in GitHub Desktop
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Tell me what name i'm thinking of?");
