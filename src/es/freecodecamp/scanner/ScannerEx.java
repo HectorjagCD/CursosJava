@@ -1,7 +1,7 @@
 /**
  * 
  */
-package es.freecodecamp.java;
+package es.freecodecamp.scanner;
 
 import java.util.Scanner;
 
