@@ -18,21 +18,22 @@ public class StockKeeper {
 		/**
 		 * Al invocar este método se crea un objeto album y se le pasan los atributos de objeto por parámetros
 		 */
-		album.name=name;
-		album.artist=artist;
-		album.price=price;
-		album.numberOfCopies=numberOfCopies;
+		album.setName(name);
+		album.setArtist(artist);
+		album.setPrice(price);
+		album.setNumberOfCopies(numberOfCopies);
 		
 		/**
 		 * Imprimimos los detalles del albúm a modo de prueba
 		 */
-		System.out.println("Album nanaged by; " + this.name);
+		System.out.println("------------------------------------");
+		System.out.println("Album managed by: " + this.name);
 		System.out.println("Album details::::::::::::::");
-		System.out.println("Album name: " + album.name);
-		System.out.println("Album artis: "+ album.artist);
-		System.out.println("Album price: " + album.price +"$");
-		System.out.println("Album number of copies: " +album.numberOfCopies);
-		
+		System.out.println("Album name: " + album.getName());
+		System.out.println("Album artis: "+ album.getArtist());
+		System.out.println("Album price: " + album.getPrice() +"$");
+		System.out.println("Album number of copies: " +album.getNumberOfCopies());
+		System.out.println("------------------------------------");
 	}
 
 }
