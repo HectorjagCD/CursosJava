@@ -16,6 +16,16 @@ public class AlmacenDiscos {
 
 		StockKeeper Jules = new StockKeeper("Jules");
 		Jules.manageMovie(new Movie(), "Memento", "Cristopher Nolan", 21, 5);
+		
+		
+		Shape circle = new Circle();
+		
+		// Ejemplo implementación clase abstracta Shape empleando Circle
+		circle.draw();
+		
+		// Ejemplo implementación Interface 
+		System.out.println(Runnable.a);
+		
 	}
 
 }
